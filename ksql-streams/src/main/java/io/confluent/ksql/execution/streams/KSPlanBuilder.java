@@ -153,7 +153,7 @@ public final class KSPlanBuilder implements PlanBuilder {
         right,
         join,
         queryBuilder,
-        streamsFactories.getJoinedFactory()
+        streamsFactories.getStreamJoinedFactory()
     );
   }
 
